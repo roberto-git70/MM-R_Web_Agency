@@ -33,8 +33,9 @@
     });
     
     
-    // Back to top button
-    $(window).scroll(function () {
+// Back to top button
+
+$(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
         } else {
@@ -45,7 +46,7 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-
+    //Get the button
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -62,4 +63,3 @@
     });
     
 })(jQuery);
-
